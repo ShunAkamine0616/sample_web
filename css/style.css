@@ -1,0 +1,80 @@
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    background-color: rgb(194, 246, 246);
+    /* text-align: center; */
+}
+
+header {
+    text-align: center;
+}
+
+#header {
+    border-bottom:2px solid rgb(72, 107, 224);
+    margin-bottom: 10px;
+}
+
+#input_form {
+    /* text-align: center; */
+    background-color: white;
+    margin: 0% 30%;
+    /* margin-bottom: 10px; */
+    padding: 20px 3px;
+    border: 1px solid rgb(177, 177, 177);
+    border-radius: 10px;
+    /* height: ; */
+}
+
+.a {
+    border-radius: 5px;
+    border-color: rgb(197, 196, 196);
+    width: 90%;
+}
+
+#age {
+    width: 50px;
+    text-align: center;
+    border-radius: 5px;
+}
+/* input {
+    border-radius: 5px;
+    border-color: rgb(197, 196, 196);
+    width: 90%;
+} */
+
+.required {
+ background-color: red;
+ color: white;
+ border-radius: 5px;
+}
+
+button {
+    margin-left: 0px;
+}
+
+textarea{
+    width: 90%;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+footer {
+    width: 100%;
+    margin-top: 2px;
+    margin-bottom: 0px;
+    padding-top: 3px;
+    padding-bottom: 0px;
+    /* border: solid; */
+    border-top:2px solid rgb(72, 107, 224);
+    /* border-bottom: red; */
+}
+
+#footer {
+    /* border-top:rgb(1, 57, 238); */
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+

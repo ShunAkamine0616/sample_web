@@ -1,0 +1,51 @@
+body{
+  background:url(../images/bg_Argyle.jpg);
+}
+
+.center {
+  text-align:center;
+}
+
+#material {
+  color: rgb(243, 147, 163);
+  font-weight: bold;
+}
+
+.images {
+  text-align: center;
+}
+
+.table {
+  background-color: rgb(235, 204, 113);
+  border-color: red;
+}
+
+.choco {
+  display: flex;
+
+}
+
+#arumono {
+  font-weight: bold;
+}
+
+.textmessage {
+  text-align: center;
+}
+
+#titletext {
+  font-weight: 540;
+} 
+
+ul li {
+  list-style-type: circle; 
+}
+
+#curry {
+  border: double 10px #ee7575;
+}
+
+#choco_message {
+  padding-top: 0px;
+  margin-top: 0px;
+}

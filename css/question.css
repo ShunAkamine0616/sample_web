@@ -1,0 +1,52 @@
+body {
+    background:url(../images/bg_Argyle.jpg);
+}
+
+#entire {
+    text-align: center;
+}
+
+#input_form {
+    height: 500px;
+    margin-left: 20%;
+    margin-right: 20%;
+    border: solid;
+    border-color: rgb(232, 176, 248);
+    border-radius: 25px;
+    background-color: white;
+    box-shadow: 2px 2px 4px rgb(188, 186, 186);
+}
+
+.food {
+    border: solid;
+    border-color: rgb(196, 196, 196);
+    border-radius: 5px;
+    padding: 2px;
+    margin: 20px 1px;
+}
+
+.sei{
+    border: solid;
+    border-color: rgb(196, 196, 196);
+    border-radius: 5px;
+    padding: 2px;
+    margin: 40px 1px;
+}
+
+#age {
+    /* margin: 30px; */
+}
+
+#message {
+    height: 10%;
+    width: 50%;
+}
+
+button {
+    background: -moz-linear-gradient(top, #fffefe, rgb(194, 192, 192));
+    background: -webkit-linear-gradient(top, #ffffff,rgb(194, 192, 192));
+    background: linear-gradient(to bottom, #ffffff, rgb(215, 213, 213));
+    border-color: gainsboro;
+    margin: 2px 10px;
+    border-radius: 2px;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/question.css" rel="stylesheet" type="text/css">
+    <title>質問・感想フォーム</title>
+</head>
+
+<body>
+    <div id="entire">
+        <h1>質問・感想フォーム</h1>
+        <div id="input_form"><br>
+
+            氏名<br><input type="text" name="name"><br><br>
+            性別<br><br>
+            <span class="sei"><input type="radio" id="male" name="sei" value="male" checked><label for="male">男</label></span>
+            <span class="sei"><input type="radio" id="female" name="sei" value="female"><label for="female">女</label></span><br><br>
+            年齢<br>
+            <span id="age"><select name="age"></span>
+                <option value="10" selected>10代</option>
+                <option value="20">20代</option>
+                <option value="30">30代</option>
+                <option value="40">40代</option>
+                <option value="50">50代</option>
+                <option value="60">60代</option>
+                <option value="70">70代</option>
+                <option value="80">80代</option>
+            </select><br><br>
+            今後見てみたいレシピ<br><br>
+            <span class="food"><input id="washoku" type="checkbox" name="food" value="1"><label for="washoku">和食</label></span>
+            <span class="food"><input id="tyuuka" type="checkbox" name="food" value="2"><label for="tyuuka">中華</label></span>
+            <span class="food"><input id="youshoku" type="checkbox" name="food" value="3"><label for="youshoku">洋食</label></span>
+            <span class="food"><input id="italian" type="checkbox" name="food" value="4"><label for="italian">イタリアン</label></span>
+            <span class="food"><input id="sweets" type="checkbox" name="food" value="5"><label for="sweets">スイーツ</label></span>
+            <span class="food"><input id="others" type="checkbox" name="food" value="6"><label for="others">その他</label></span><br><br>
+            自由コメント欄<br>
+            <textarea id="message" name="message">自由に意見を記述してください</textarea><br>
+            <button type="submit">送信</button>
+            <button type="reset">取り消し</button>
+        </div>
+    </div>
+</body>
+
+</html>

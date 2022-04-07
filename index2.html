@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div id="header">
+        <header>アンケート</header>
+    </div>
+    <div id="input_form">
+
+        <p>AxiZの研修をご利用いただき、誠にありがとうございます。<br>
+            以下の内容の記入及び送信をして頂けると幸いです。</p>
+
+        会社名　<span class="required">必須</span><br><input type="text" class="a" placeholder="例)株式会社テクノコア"><br>
+        <p>お名前　<span class="required">必須</span><br><input type="text" class="a" placeholder="手久野　興亜"></p>
+        <p>メールアドレス<br><input type="text" class="a" placeholder="例)example@axiz.co.jp"><p>
+        <p>年齢<br><input type="number" id="age" value="23"></p>
+        受講コース<br>
+        <input type="radio" checked> Java
+        <input type="radio"> インフラ<br><br>
+
+        会場<br>
+        <select class="a">
+            <option value="1">日本語A教室</option>
+            <option value="2">日本語B教室</option>
+            <option value="3">英語A教室</option>
+            <option value="4">英語B教室</option>
+        </select><br><br>
+        詳しく学びたい内容(複数回答可)<br>
+
+        <input type="checkbox" name="" value="">ビジネスマナー<br>
+        <input type="checkbox" name="" value="">HTML<br>
+        <input type="checkbox" name="" value="">JavaScript<br>
+        <input type="checkbox" name="" value="">Java<br>
+        <input type="checkbox" name="" value="">データベース<br>
+        <input type="checkbox" name="" value="">Linux<br><br>
+
+        ご意見<br>
+        <textarea>自由にご記入ください。</textarea><br>
+        <button type="submit">送信する</button>
+    </div>
+    <div id="footer">
+        <footer>Copyrignt (C) Axiz</footer>
+    </div>
+</body>
+
+</html>
