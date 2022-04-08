@@ -1,0 +1,28 @@
+body {
+    background-image:url("../images/b009.jpg");
+}
+
+#document {
+    text-align: center;
+    /* width: 2000px; */
+    margin: 5% 30%;
+}
+
+table {
+    margin: 30px auto;
+}
+
+.add_info {
+    background-color: rgb(169, 235, 169);
+    margin: 9px;
+    padding: 1%;
+}
+
+ol {
+    list-style-type:none;
+}
+
+h4 {
+    color: rgb(83, 16, 178);
+}
+

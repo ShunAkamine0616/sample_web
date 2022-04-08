@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(188, 188, 244);
+    margin-left: 5%;
+}
+
+#bottom_discript  {
+    /* border: 2px dashed rgb(150, 149, 242); */
+}
+
+img {
+    width: 800px;
+}
+#left_discript h3 {
+    color: rgb(147, 86, 32);
+}
+.other_episode h4{
+    color: rgb(147, 86, 32);
+    
+}
+
+#discript {
+    border: 3px outset greenyellow;
+}
+
+.other_episode {
+    border: 3px outset greenyellow;
+}
